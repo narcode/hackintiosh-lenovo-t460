@@ -1,4 +1,6 @@
 # hackintiosh-lenovo-t460
+(i see the typo i dont care)
+
 EFI and goodies for hackintosh Lenovo T460 with Clover 
 
 
