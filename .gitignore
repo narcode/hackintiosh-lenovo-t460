@@ -1,3 +1,4 @@
 config*
 nvram*
 kext-orig/
+.DS_*
