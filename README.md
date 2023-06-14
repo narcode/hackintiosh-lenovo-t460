@@ -1,7 +1,8 @@
 # hackintosh-lenovo-t460
 
-EFI and goodies for hackintosh Lenovo T460 with Clover 
+EFI and goodies for hackintosh Lenovo T460 with OpenCore, tuned for macOs Ventura
 
+Most of this update is based on https://www.tonymacx86.com/threads/success-thinkpad-t460-opencore-ventura.325050/. Great work there! This EFI just differs in the config.plist to accomodate the Broadcom wifi card. If not for that post I would have probably stayed in Catalina.
 
 ## my specs:
 - Lenovo T460 running Mojave 10.14.6
@@ -12,12 +13,14 @@ EFI and goodies for hackintosh Lenovo T460 with Clover
 - Changed wifi card to Broadcom compatible card (BCM4360 14e4:43a0)
 
 ## what works:
-almost everyhting, don't have any issues really. Sometimes after OS updates I need to rollback IOPCIFamily kext for the wifi to work again.
+almost everyhting, don't have any issues really. With this new EFI even sleep is working fine, which was a bit broken in Catalina.
 
 # note:
 There is no config.plist in the repo so not suitable to just clone and expect it to work. Refer to the guide at the bottom or ask me for the config file. Better to read, try and learn than just cloning anc copy pasting.
 
-I also have an elitebook HP 830 G5 with OpenCore to test both bootloaders. However I am really happy with how this one is working so decided to keep the Lenovo the way it is. 
 
 # Credits
-Most of the ppl workikng on hackintoshes along the years. Like Rehabman and others from the different forums. All the needed knowledge is there just from reading. I saved a lot of time thanks to tlucks repo: https://github.com/tluck/Lenovo-T460-Clover and his guide at http://www.insanelymac.com/forum/topic/315451-guide-lenovo-t460-macos-with-clover/
+Most of the ppl workikng on hackintoshes along the years. Like Rehabman and others from the different forums. All the needed knowledge is there just from reading. Also thanks to the people behind OpenCode and Clover.
+
+https://dortania.github.io/OpenCore-Install-Guide/
+
